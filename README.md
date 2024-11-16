@@ -14,7 +14,8 @@ Prerequisite Setup (Windows)
 10) Run the .exe
 
 Notes
-1) This program is designed to me interrupted by human input. It facilitates easy trades hourly, but it is not automated. 
+1) This program is designed to me interrupted by human input. It facilitates easy trades hourly, but it is not automated.
+2) This is a hobby project, so if you have more suggestions on how to improve the algorithm please let me know! Ill try to commit updates I make as I get to them.
 
 Credits
 1) https://github.com/rhettre/coinbase-advancedtrade-python
