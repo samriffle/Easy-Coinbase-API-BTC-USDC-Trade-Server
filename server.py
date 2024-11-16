@@ -130,6 +130,16 @@ while(1):
                     while(cont == False):
                         choice = input("Suggested to buy BTC . Continue? 'y' or 'n': ").lower()
                         if choice == "y":
+                            # Next project is to look at the actual value of BTC. If its change in value from a certain time period ago to now is a certain percentage of its value now ((old - new)/new
+                            # History signal is the market vector direction (inc., dec. in value) while this project will introduce magnitude of market vector gains
+                            # 
+                            # if value from a [timeperiod] ago is >= [percentage] greater than today
+                            #   buy
+                            # else
+                            #   do nothing, the gain potential isnt that good
+                            # 
+                            # 
+                            # )
                             buy = auth_client.buy()
                             logging.warning('{} - {}'.format(datetime.now(), buy)) 
                             print("Order status logged.")
@@ -145,6 +155,16 @@ while(1):
                     while(cont == False):
                         choice = input("Suggested to sell BTC. Continue? 'y' or 'n': ").lower()
                         if choice == "y":
+                            # Next project is to look at the actual value of BTC. If its change in value from a certain time period ago to now is a certain percentage of its value now ((old - new)/new
+                            # History signal is the market vector direction (inc., dec. in value) while this project will introduce magnitude of market vector gains
+                            # 
+                            # if value from a [timeperiod] ago is <= [percentage] less than today
+                            #   sell
+                            # else
+                            #   do nothing, the gain potential isnt that good
+                            # 
+                            # 
+                            # )
                             sell = auth_client.sell()
                             logging.warning('{} - {}'.format(datetime.now(), sell)) 
                             print("Order status logged.")
