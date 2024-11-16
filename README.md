@@ -18,3 +18,4 @@ Notes
 
 Credits
 1) https://github.com/rhettre/coinbase-advancedtrade-python
+2) https://github.com/samchaaa/simple_btc_algo/tree/main
