@@ -13,5 +13,8 @@ Prerequisite Setup (Windows)
 9) Find and move cdp_api_key.json to the newly generated dist directory
 10) Run the .exe
 
+Notes
+1) This program is designed to me interrupted by human input. It facilitates easy trades hourly, but it is not automated. 
+
 Credits
 1) https://github.com/rhettre/coinbase-advancedtrade-python
