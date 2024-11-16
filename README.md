@@ -1,8 +1,17 @@
-To get the .exe to work, do the following steps:
+Prerequisite Installs
+1) pip install pyinstaller
+2) pip install coinbase-advancedtrade-python
+
+Prerequisite Setup (Windows)
 1) Visit https://www.coinbase.com/settings/api
 2) Click the Create API Key button on the top right side of the window.
 3) Give your key a name and select any portfolio that you want (I used the default). Tick the view, trade, and transfer permission boxes.
 4) Fill in the IP whitelist with your external IP for security purposes, or leave it blank if you do not need the extra layer of protection.
 5) Click the Create and Download button, which will save your cdp_api_key.json file
-6) Find and move that file to the same directory as the Coinbase_BTC_USDC_Trade_Server.exe file
-7) Run the .exe
+6) Open cmd(admin) and navigate to the directory server.py is in
+7) pyinstaller --onefile server.py
+9) Find and move cdp_api_key.json to the newly generated dist directory
+10) Run the .exe
+
+Credits
+1) https://github.com/rhettre/coinbase-advancedtrade-python
